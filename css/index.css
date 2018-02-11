@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 16px;
+    text-align: center;
+    margin: 5px 0;
+    padding: 0;
+    z-index: 1;
+    position: relative;
+}
+
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 960px; }
+.clear { clear: both; }
+.font-white { color: white; font-weight: 100; }
+.font-gray { color: #333; font-weight: 100; }
+.d-flex { display:flex; }
+.col { padding: 5px; }
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.1);
+}
+
+#home, #about{ width: 100%; }
+#home{
+    background: url('../resources/sail1.jpeg') 50% 0 no-repeat fixed;
+    margin: 0;
+    height: 600px;
+    padding: 200px 0;
+    background-size: cover;
+    filter: grayscale(0.65);
+}
+
+#about{
+    background-color: #fff;
+    margin: 0;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+#roster{
+    background: url('../resources/sail2.jpeg') 50% 0 no-repeat fixed;
+    padding: 100px 0;
+    margin: 0;
+    background-size: cover;
+    filter: grayscale(0.65);
+}
+
+#executive{
+    background-color: #fff;
+    margin: 0;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+#contact{
+    background: url('../resources/sail3.jpeg') 50% 0 no-repeat fixed;
+    margin: 0;
+    padding: 100px 0;
+    background-size: cover;
+    filter: grayscale(0.65);
+}
+
+#donate{
+    background-color: #fff;
+    margin: 0;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+#footer {
+    height: 150px;
+    padding: 50px 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.1);
+}
+
+img.roster {
+    overflow: hidden;
+    object-fit: cover;
+}
