@@ -104,3 +104,7 @@ img.roster {
     overflow: hidden;
     object-fit: cover;
 }
+
+.wow {
+    visibility: hidden;
+}

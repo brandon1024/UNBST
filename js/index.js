@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    new WOW().init();
+
     $('a[href*="#"]:not([href="#"])').each(function() {
         if(location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname && this.hash.replace(/#/,'')) {
             var $targetId = $(this.hash);
