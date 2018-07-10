@@ -27,3 +27,9 @@ $(document).ready(function() {
     });
 });
 
+window.onload = function() {
+    //Animate show images when loaded
+    $('#home, #roster, #contact').each(function() {
+        $(this).animate({ opacity: 1 }, 1000);
+    });
+};

@@ -41,12 +41,13 @@ h3 {
 
 #home, #about{ width: 100%; }
 #home{
-    background: url('../resources/sail1.jpeg') 50% 0 no-repeat fixed;
+    background: url('../resources/sail1.jpg') 50% 0 no-repeat fixed;
     margin: 0;
     height: 600px;
     padding: 200px 0;
     background-size: cover;
     filter: grayscale(0.65);
+    opacity: 0;
 }
 
 #about{
@@ -63,11 +64,12 @@ h3 {
 }
 
 #roster{
-    background: url('../resources/sail2.jpeg') 50% 0 no-repeat fixed;
+    background: url('../resources/sail2.jpg') 50% 0 no-repeat fixed;
     padding: 100px 0;
     margin: 0;
     background-size: cover;
     filter: grayscale(0.5);
+    opacity: 0;
 }
 
 #executive{
@@ -79,11 +81,12 @@ h3 {
 }
 
 #contact{
-    background: url('../resources/sail3.jpeg') 50% 0 no-repeat fixed;
+    background: url('../resources/sail3.jpg') 50% 0 no-repeat fixed;
     margin: 0;
     padding: 100px 0;
     background-size: cover;
     filter: grayscale(0.65);
+    opacity: 0;
 }
 
 #donate{

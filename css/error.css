@@ -1,0 +1,9 @@
+#error-description {
+    background: url('../resources/sail1.jpg') 50% 0 no-repeat fixed;
+    margin: 0;
+    height: 600px;
+    padding: 200px 0;
+    background-size: cover;
+    filter: grayscale(0.65);
+    width: 100%;
+}
