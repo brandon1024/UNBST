@@ -37,7 +37,7 @@ h3 {
 .link.font-white { text-decoration: underline; }
 .link.font-gray { text-decoration: underline; }
 .link.font-white:hover { color: #ddd; }
-.link.font-gray:hover { color: #555 ; }
+.link.font-gray:hover { color: #555; }
 
 .navbar {
     background-color: rgba(0,0,0,0.15);
