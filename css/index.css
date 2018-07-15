@@ -32,12 +32,13 @@ h3 {
 .center { margin: 0 auto; }
 .content{ margin: 0 auto; width: 960px; }
 .clear { clear: both; }
-.font-white { color: white; font-weight: 100; }
-.font-gray { color: #333; font-weight: 100; }
+.font-white { color: white; }
+.font-gray { color: #333; }
 .link.font-white { text-decoration: underline; }
 .link.font-gray { text-decoration: underline; }
 .link.font-white:hover { color: #ddd; }
 .link.font-gray:hover { color: #555; }
+.thin { font-weight: 100; }
 
 .navbar {
     background-color: rgba(0,0,0,0.15);
